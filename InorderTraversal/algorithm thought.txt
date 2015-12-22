@@ -1,0 +1,18 @@
+The idea is to maintain a list of roots of all Binary Trees. Recursively construct all possible left and right subtrees.
+ Create a tree for every pair of left and right subtree and add the tree to list. Below is detailed algorithm.
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+1) Initialize list of Binary Trees as empty.  
+2) For every element in[i] where i varies from 0 to n-1,
+    do following
+......a)  Create a new node with key as 'arr[i]', 
+          let this node be 'node'
+......b)  Recursively construct list of all left subtrees.
+......c)  Recursively construct list of all right subtrees.
+3) Iterate for all left subtrees
+   a) For current leftsubtree, iterate for all right subtrees
+        Add current left and right subtrees to 'node' and add
+        'node' to list. 
