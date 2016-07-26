@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1465639950 source:c:\users\wbc\desktop\algorithm\0-1 bag problem\main.cpp
+	<iostream>
+	<windows.h>
+	<queue>
+
